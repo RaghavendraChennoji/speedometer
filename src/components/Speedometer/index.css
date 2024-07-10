@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #07080c;
+}
+.speed-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: italic;
+  font-family: 500;
+}
+.image {
+  width: 300px;
+  height: 125px;
+}
+.speed-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.speed-limits {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 48px;
+}
+.button {
+  border-radius: 8px;
+  padding: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+.accelerate-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+.brake-btn {
+  color: #94a3b8;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border: 2px solid #94a3b8;
+}
